@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Amatic+SC:wght@400;700&family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Comforter+Brush&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Golos+Text&family=Marck+Script&family=Neucha&family=Pacifico&family=Ruslan+Display&display=swap');
-a, h1, h2, h3, p{
+a, h1, h2, h3, p, button{
     font-family: "Bona Nova SC", serif;
     font-weight: 400;
     font-style: normal;
 }
+
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -19,6 +20,11 @@ section {
 p{
     font-size: 24px;
 }
+h1 {
+    font-size: 50px;
+    margin-top: 79px;
+    margin-bottom: 0;
+}
 h2{
     font-size: 48px;
     text-align: center;
@@ -29,18 +35,42 @@ h2{
 h3{
     font-size: 18px;
 }
+
+section{
+    margin-bottom: 25px;
+}
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.cover-contant{
+    background-color:rgb(255, 246, 253); ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px; 
+    }
+.cover-contant img{
+    height: 566px;
+    width: 611px;
+    padding: 39px 0 ;
+    }
+.cover-contant button{     
+    padding: 18px 26px;
+    font-size: 24px;
+    border: 1px solid black; 
+    border-bottom: 6px solid black; 
+    position: relative; 
+    margin: 15px 0;
+    }
 .about-contant{
 background-color:rgb(255, 246, 253); ;
 display: flex;
 align-items: center;
 justify-content: center;
 text-align: center;
-gap: 15px;
+gap: 15px; 
 }
 .about-contant img{
     height: 698px;
@@ -49,6 +79,7 @@ gap: 15px;
     background-color: rgb(164, 96, 108);
     background-size: cover;
     font-size: 18px;
+    color: white;
 }
 .advice {
     padding:60px 0;
@@ -62,4 +93,28 @@ gap: 15px;
     justify-content: center;
     gap: 16px;
 }
-
+footer{
+    background-color: rgb(164, 96, 108);
+    background-size: cover;
+    color: white;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding:84px ;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column h4{
+    margin-top: 0;
+}
+.footer-column li{
+    margin-bottom: 14px;
+}
+.footer-column{
+  font-size: 16px;
+  margin-right: 75px;
+}
