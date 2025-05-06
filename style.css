@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Amatic+SC:wght@400;700&family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Comforter+Brush&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Golos+Text&family=Marck+Script&family=Neucha&family=Pacifico&family=Ruslan+Display&display=swap');
 
-a, h1, h2, h3, h4, li, p, button {
+a, h1, h2, h3, h4, li, p, button, select {
     font-family: "Bona Nova SC", serif;
     font-weight: 400;
     font-style: normal;
@@ -376,4 +376,50 @@ footer {
     font-size: 14px;
     border-top: 1px solid white;
     padding: 18px;
+}
+
+.menu-catalog{
+    width: 256px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.menu-catalog h2{
+    font-size: 24px;
+    padding: 12px 0;
+    margin-bottom: 16px;
+    text-align: left;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    text-transform: capitalize;
+}
+.checkbox-list {
+    list-style: none;
+    padding: 0px;
+}
+.checkbox-list li {
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+.checkbox-container h3{
+font-size: 18px;
+margin-top: 0;
+margin-bottom: 2px;
+}
+.catalog-conteiner{
+    display: flex;
+    justify-content: center;
+}
+.catalog-conteiner h2{
+    font-size: 24px;
+    padding: 0;
+    text-transform: capitalize;
+}
+.top-catalog{
+    margin-top: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+select{
+    border: none;
+    font-size: 20px;
 }
