@@ -516,3 +516,38 @@ button[type="submit"]:hover{
     box-sizing: border-box;
     padding: 40px 60px;
 }
+.regForm {
+    background-color:rgba(222, 156, 170, 0.7) ; 
+    width: 558px; 
+    height: 717px;
+    box-shadow:10px 10px 42px rgba(92, 54, 84, 0.5), -10px -10px 42px rgba(92, 54, 84, 0.5);
+    text-align: center;
+}
+.regForm p{
+    font-size: 16px;
+    color: rgb(66, 66, 66);
+}
+.regForm u, a{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    
+}
+.regForm form {
+    display: flex;
+    flex-direction: column;
+    padding:  2px 81px;
+    
+}
+.regForm input {
+    padding: 16px;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.regForm h2{
+    font-size: 48px;
+    padding: 0;
+    text-transform: capitalize;
+    margin: 74px 45px 34px;
+}
